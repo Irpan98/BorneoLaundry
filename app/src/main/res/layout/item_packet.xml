@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingHorizontal="12dp"
+        android:lines="1"
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Standar aja" />
+
+    <TextView
+        android:paddingTop="4dp"
+        android:paddingHorizontal="12dp"
+        android:lines="1"
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorAccent"
+        android:textSize="14sp"
+        tools:text="Rp 80000" />
+
+    <TextView
+        android:paddingTop="2dp"
+        android:paddingHorizontal="12dp"
+        tools:text="standar adalah barang yang standar"
+        android:id="@+id/tvNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1" />
+
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/listDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+</LinearLayout>
